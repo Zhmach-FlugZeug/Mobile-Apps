@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/stepView"
+        android:id="@+id/tvHint"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvThreshold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stepView"
+        android:layout_marginBottom="0dp"
+        android:text="Порог: 20.0"
+        android:textStyle="bold" />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek"
+        android:layout_marginTop="0dp"
+        android:layout_below="@+id/thresholdView"
+        android:layout_marginBottom="40px"
+        />
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Количество шагов: 0"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5px"
+        android:background="#1E90FF"
+        android:text="Старт"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:text="СТОП"
+        android:textSize="34sp" />
+
+</LinearLayout>

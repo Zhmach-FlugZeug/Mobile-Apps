@@ -1,0 +1,4 @@
+<resources>
+    <string name="hint">Рекомендация: если телефон во время работы приложения будет находиться в руке - установите порог 20, если в кармане - 35.</string>
+    <string name="app_name">labWork6</string>
+</resources>

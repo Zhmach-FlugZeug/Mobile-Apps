@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calc.Views.EngineerCalc"
+             Title=" Инженерный калык с обратной польской записью">
+    <Grid x:Name="Calc" Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Табло с результатом -->
+        <Label x:Name="resultText" FontSize="48" FontAttributes="Bold" BackgroundColor="Black" 
+               Text="0" Grid.Row="0" TextColor="White" HorizontalTextAlignment="End" 
+               VerticalTextAlignment="Center" LineBreakMode="NoWrap" Grid.ColumnSpan="5" />
+
+        <!-- Кнопки с цифрами -->
+        <Button Grid.Row="4" Grid.Column="0" BackgroundColor="White" 
+                Text="7" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="4" Grid.Column="1" BackgroundColor="White" 
+                Text="8" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="4" Grid.Column="2" BackgroundColor="White" 
+                Text="9" FontSize="26" Clicked="OnSelectNumber" />
+
+        <Button Grid.Row="5" Grid.Column="0" BackgroundColor="White" 
+                Text="4" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="5" Grid.Column="1" BackgroundColor="White" 
+                Text="5" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="5" Grid.Column="2" BackgroundColor="White" 
+                Text="6" FontSize="26" Clicked="OnSelectNumber" />
+
+        <Button Grid.Row="6" Grid.Column="0" BackgroundColor="White" 
+                Text="1" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="6" Grid.Column="1" BackgroundColor="White" 
+                Text="2" FontSize="26" Clicked="OnSelectNumber" />
+        <Button Grid.Row="6" Grid.Column="2" BackgroundColor="White" 
+                Text="3" FontSize="26" Clicked="OnSelectNumber" />
+
+        <Button Grid.Row="7" Grid.Column="0" BackgroundColor="White" 
+                Text="0" FontSize="26" Grid.ColumnSpan="3" Clicked="OnSelectNumber" />
+
+        <!-- Кнопки с мат. операциями -->
+        <Button Grid.Row="1" Grid.Column="0" BackgroundColor="AntiqueWhite"
+                Text="sin" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="1" Grid.Column="1" BackgroundColor="AntiqueWhite"
+                Text="cos" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="1" Grid.Column="2" BackgroundColor="AntiqueWhite"
+                Text="tg" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="1" Grid.Column="3" BackgroundColor="AntiqueWhite"
+                Text="ctg" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="1" Grid.Column="4" BackgroundColor="AntiqueWhite"
+                Text="π" FontSize="18" Clicked="OnSelectNumber"/>
+
+        <Button Grid.Row="2" Grid.Column="0" BackgroundColor="AntiqueWhite"
+                Text="sec" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="2" Grid.Column="1" BackgroundColor="AntiqueWhite"
+                Text="csc" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="2" Grid.Column="2" BackgroundColor="AntiqueWhite"
+                Text="sinh" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="2" Grid.Column="3" BackgroundColor="AntiqueWhite"
+                Text="cosh" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="2" Grid.Column="4" BackgroundColor="AntiqueWhite"
+                Text="tgh" FontSize="18" Clicked="OnSelectOperator"/>
+
+        <Button Grid.Row="3" Grid.Column="0" BackgroundColor="AntiqueWhite"
+                Text="asin" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="3" Grid.Column="1" BackgroundColor="AntiqueWhite"
+                Text="acos" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="3" Grid.Column="2" BackgroundColor="AntiqueWhite"
+                Text="atan" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="3" Grid.Column="3" BackgroundColor="AntiqueWhite"
+                Text="acot" FontSize="18" Clicked="OnSelectOperator"/>
+        <Button Grid.Row="3" Grid.Column="4" BackgroundColor="AntiqueWhite"
+                Text="e" FontSize="18" Clicked="OnSelectNumber"/>
+
+        <Button Grid.Row="4" Grid.Column="3" BackgroundColor="Gold" 
+                Text="÷" FontSize="26" Clicked="OnSelectOperator" />
+        <Button Grid.Row="4" Grid.Column="4" BackgroundColor="Gold" 
+                Text="C" FontSize="26" Clicked="OnClear" />
+
+        <Button Grid.Row="5" Grid.Column="3" BackgroundColor="Gold" 
+                Text="×" FontSize="26" Clicked="OnSelectOperator" />
+        <Button Grid.Row="5" Grid.Column="4" BackgroundColor="Gold" 
+                Text=" " FontSize="26" Clicked="OnSelectOperator" />
+
+        <Button Grid.Row="6" Grid.Column="3" BackgroundColor="Gold" 
+                Text="-" FontSize="26" Clicked="OnSelectOperator" />
+        <Button Grid.Row="6" Grid.Column="4" BackgroundColor="Gold" 
+                Text="=" FontSize="26" Grid.RowSpan="2" Clicked="OnCalculate" />
+
+        <Button Grid.Row="7" Grid.Column="3" BackgroundColor="Gold" 
+                Text="+" FontSize="26" Clicked="OnSelectOperator" />
+
+    </Grid>
+</ContentPage>

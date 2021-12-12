@@ -1,0 +1,12 @@
+Mono.Samples.Snake.RefreshHandler, Snake;crc64531b3aed40974497.RefreshHandler
+Mono.Samples.Snake.RefreshHandler;crc64531b3aed40974497.RefreshHandler
+mono.samples.snake.RefreshHandler;crc64531b3aed40974497.RefreshHandler
+Mono.Samples.Snake.SnakeActivity, Snake;crc64531b3aed40974497.SnakeActivity
+Mono.Samples.Snake.SnakeActivity;crc64531b3aed40974497.SnakeActivity
+mono.samples.snake.SnakeActivity;crc64531b3aed40974497.SnakeActivity
+Mono.Samples.Snake.SnakeView, Snake;crc64531b3aed40974497.SnakeView
+Mono.Samples.Snake.SnakeView;crc64531b3aed40974497.SnakeView
+mono.samples.snake.SnakeView;crc64531b3aed40974497.SnakeView
+Mono.Samples.Snake.TileView, Snake;crc64531b3aed40974497.TileView
+Mono.Samples.Snake.TileView;crc64531b3aed40974497.TileView
+mono.samples.snake.TileView;crc64531b3aed40974497.TileView

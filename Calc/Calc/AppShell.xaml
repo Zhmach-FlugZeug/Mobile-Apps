@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:views="clr-namespace:Calc.Views"
+       x:Class="Calc.AppShell">
+    <!-- Display a bottom tab bar containing two tabs -->
+    <TabBar>
+        <ShellContent Title="Reg Calc"
+                      Icon="icon_calculator.png"
+                      ContentTemplate="{DataTemplate views:CalcPage}" />
+        <ShellContent Title="Eng Calc"
+                      Icon="icon_calculator.png"
+                      ContentTemplate="{DataTemplate views:EngineerCalc}" />
+        <ShellContent Title="Hello"
+                      Icon="icon_feed.png"
+                      ContentTemplate="{DataTemplate views:Hello}" />
+        <ShellContent Title="About"
+                      Icon="icon_about.png"
+                      ContentTemplate="{DataTemplate views:AboutPage}" />
+    </TabBar>
+</Shell>

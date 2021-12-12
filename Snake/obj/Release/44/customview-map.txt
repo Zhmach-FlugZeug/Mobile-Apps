@@ -1,0 +1,9 @@
+attr;obj\Release\44\res\values\attrs.xml
+declare-styleable;obj\Release\44\res\values\attrs.xml
+FrameLayout;obj\Release\44\res\layout\snake_layout.xml
+mono.samples.snake.SnakeView;obj\Release\44\res\layout\snake_layout.xml
+RelativeLayout;obj\Release\44\res\layout\snake_layout.xml
+resources;obj\Release\44\res\values\attrs.xml
+resources;obj\Release\44\res\values\strings.xml
+string;obj\Release\44\res\values\strings.xml
+TextView;obj\Release\44\res\layout\snake_layout.xml

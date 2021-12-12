@@ -1,0 +1,8 @@
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.dll
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.pdb
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.AccelerometerPlay.apk
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.AccelerometerPlay.aab
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.AccelerometerPlay-Signed.aab
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.AccelerometerPlay-Signed.apk
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.AccelerometerPlay-Signed.apk.idsig
+D:\Mobile app\AccelerometerPlay\bin\x86\Debug\AccelerometerPlay.dll.mdb
